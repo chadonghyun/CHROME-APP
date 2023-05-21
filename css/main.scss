@@ -1,0 +1,10 @@
+
+
+$txt_color01:#fff;
+@mixin h1txt{
+  font-family: "맑은 고딕";
+  font-size: 6rem;
+}
+#clock{
+  @include h1txt;
+}
